@@ -5,8 +5,8 @@ Rules for Project Management
    * [phome](#phome)
    * [Hardware](#hardware)
       * [Creeper](#creeper)
-      * [Features](#features)
-      * [Tasks](#tasks)
+         * [Features](#features)
+         * [Tasks](#tasks)
    * [Amiga](#amiga)
       * [Battery](#battery)
    * [PC](#pc)
@@ -14,9 +14,11 @@ Rules for Project Management
    * [ANDROID](#android)
       * [Battery](#battery-2)
 
-<!-- Added by: gavinr, at: Sun Jan 24 16:45:48 GMT 2021 -->
+<!-- Added by: gavinr, at: Sun Jan 24 16:50:11 GMT 2021 -->
 
 <!--te-->
+
+---
 
 Hardware
 ===========
@@ -25,11 +27,13 @@ Creeper
 -------
 The creeper version one was released in October 2019.
 
-## Features ##
+### Features ###
 * [DEV] add proper sounds
 
-## Tasks ##
+### Tasks ###
 * None it's all good anyway
+
+---
 
 Amiga
 ===========
@@ -37,11 +41,15 @@ Amiga
 Battery
 -------
 
+---
+
 PC
 ===========
 
 Battery
 -------
+
+---
 
 ANDROID
 ===========
