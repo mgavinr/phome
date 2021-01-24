@@ -8,10 +8,10 @@ Creeper
 -------
 The creeper version one was released in October 2019.
 
-# Features
+## Features ##
 * [DEV] add proper sounds
 
-# Tasks
+## Tasks ##
 * None it's all good anyway
 
 Amiga
