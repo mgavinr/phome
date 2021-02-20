@@ -14,6 +14,7 @@ No more rules, is a rule.  The introduction should date and time and describe th
 <!--ts-->
    * [phome](#phome)
    * [Hardware](#hardware)
+      * [Hot air baloon](#hot-air-baloon)
       * [Creeper](#creeper)
          * [Features](#features)
          * [Tasks](#tasks)
@@ -34,8 +35,10 @@ No more rules, is a rule.  The introduction should date and time and describe th
       * [Soft: XOut Murders](#soft-xout-murders)
       * [Hard: Music](#hard-music)
       * [Hard: Clockports](#hard-clockports)
-      * [GUI and multiplatform Dev Env](#gui-and-multiplatform-dev-env)
+      * [Hard: PCI](#hard-pci)
          * [Features](#features-5)
+      * [GUI and multiplatform Dev Env](#gui-and-multiplatform-dev-env)
+         * [Features](#features-6)
          * [Task](#task)
    * [PC](#pc)
       * [Website](#website)
@@ -46,7 +49,7 @@ No more rules, is a rule.  The introduction should date and time and describe th
       * [Diary of the worlds most angriest man](#diary-of-the-worlds-most-angriest-man)
       * [Vaxine remake](#vaxine-remake)
 
-<!-- Added by: gavinr, at: Sun Jan 24 20:24:51 GMT 2021 -->
+<!-- Added by: gavinr, at: Sat Feb 20 17:46:04 GMT 2021 -->
 
 <!--te-->
 
@@ -54,6 +57,11 @@ No more rules, is a rule.  The introduction should date and time and describe th
 
 Hardware
 ===========
+Should try some sort of order here...
+
+Hot air baloon
+-------------------------
+We need a hot air baloon and camera to observe the plants.  It will be controllable by 5V fans or fins for the outside one.  It also should be able to go outside and be tied down with fishing wire or something.
 
 Creeper
 -------------------------
@@ -91,7 +99,7 @@ So two pumps needed.
 * [DEV] Turn on water when the soil moisture sensor says dry
 * [DEV] Add a temperature sensor, and a soil temperature sensor
 * [DEV] Talk to the hub with feedback status, via .. 
-*   Case needed
+* --Case needed
 
 Gardening Watering Device Luxuary
 -------------------------
@@ -101,7 +109,7 @@ As above but also capable of watering a stack of shelves each pot individually. 
 * [DEV] Motor control vertical, we can skip horizontal and individually for v2
 * [DEV] Is switchable battery and many pumps possible too
 * [DEV] Ability to insert a soil moisture sensor in each pot, or each pot already has one and it just connects to it.
-*   Case needed, wheel tracks needed
+* --Case needed, wheel tracks needed
 
 Gardening reading station
 -------------------------
@@ -144,7 +152,14 @@ A music studio with MIDI and a custom built drum machine
 
 Hard: Clockports
 -------
-I will connect the clockport to an Ard or Pi.
+Connect the clockport to an Ard or Pi.
+
+Hard: PCI
+-------
+Develop a PCI card, probably to start with something that can address a pi or ard.
+
+### Features ###
+* Maybe also get a linux box to help with the development, I have no linux box with pci card slots
 
 GUI and multiplatform Dev Env
 -------
