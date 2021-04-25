@@ -6,6 +6,7 @@ Rules for Project Management
 * Features have a ||||| where each bar means half a days work done on them
 * Featuers have an indent if they need something to be done first before they can start
 * Features are small amounts of work ideally <10
+* Notes are notes that need not be read
 
 Tasks are as above, but are small things like bugs or something that are deleted once done, except if they are post release.
 
@@ -14,11 +15,17 @@ No more rules, is a rule.  The introduction should date and time and describe th
 <!--ts-->
    * [phome](#phome)
    * [Hardware](#hardware)
+      * [Study](#study)
       * [Hot air baloon](#hot-air-baloon)
       * [Creeper](#creeper)
          * [Features](#features)
          * [Tasks](#tasks)
+      * [Darts board](#darts-board)
+      * [Golf tracker](#golf-tracker)
+      * [Outdoor disco](#outdoor-disco)
+         * [Tasks](#tasks-1)
       * [Gardening Goal Zero Timer](#gardening-goal-zero-timer)
+         * [Notes](#notes)
          * [Features](#features-1)
       * [Gardening HUB](#gardening-hub)
       * [Gardening Watering Device Basic](#gardening-watering-device-basic)
@@ -30,6 +37,7 @@ No more rules, is a rule.  The introduction should date and time and describe th
       * [Gardening hose device](#gardening-hose-device)
          * [Features](#features-4)
    * [Amiga](#amiga)
+      * [Study](#study-1)
       * [Soft: Putty and friends remake](#soft-putty-and-friends-remake)
       * [Soft: Alien](#soft-alien)
       * [Soft: XOut Murders](#soft-xout-murders)
@@ -38,6 +46,7 @@ No more rules, is a rule.  The introduction should date and time and describe th
       * [Hard: PCI](#hard-pci)
          * [Features](#features-5)
       * [GUI and multiplatform Dev Env](#gui-and-multiplatform-dev-env)
+         * [Notes](#notes-1)
          * [Features](#features-6)
          * [Task](#task)
    * [PC](#pc)
@@ -49,7 +58,7 @@ No more rules, is a rule.  The introduction should date and time and describe th
       * [Diary of the worlds most angriest man](#diary-of-the-worlds-most-angriest-man)
       * [Vaxine remake](#vaxine-remake)
 
-<!-- Added by: gavinr, at: Sat Feb 20 17:46:04 GMT 2021 -->
+<!-- Added by: gavinr, at: Sun Apr 25 19:02:26 IST 2021 -->
 
 <!--te-->
 
@@ -58,6 +67,12 @@ No more rules, is a rule.  The introduction should date and time and describe th
 Hardware
 ===========
 Should try some sort of order here...
+
+Study
+-------------------------
+This is a catchall for study not related to any project
+
+* 2021 DEV ||||
 
 Hot air baloon
 -------------------------
@@ -74,12 +89,34 @@ The creeper version one was released in October 2019.
 ### Tasks ###
 * No bugs
 
+Darts board
+-------------------------
+I will create a darts board
+
+Golf tracker
+-------------------------
+I have no memory of my shots so bought a rosery bead for golf.  Unfortunetly I have no memory for that either and forget to push the beads around.  Therefore I will create an automatic golf scoring distance thingymagig, that other people have made.
+
+Outdoor disco
+-------------------------
+I will create a pi/ard light based music lightshow disco dance floor, outdoors.  I have the space already.
+
+### Tasks ###
+* Get the floor (I have already confirmed the size) has to be waterproof
+* Get the lights
+* Get the power?
+* [DEV] Ard/pi it
+
 Gardening Goal Zero Timer
 -------------------------
 Create a device that can turn on a Goal Zero USB PLUG or CIG socket via a button or timer, as the original buttons are either covered, and do not have a timer feature.
 
+### Notes ###
+
+My solenoid with 12v AA battery 1300mA could not push the on/off buttons, it was successful 1/10 times.  I thought maybe making a magnet that would repel the button with enough force that that would work but no; I created the magnet and turned it on.  It was successful and lifted something almost as big as the coil around which it was wound.  Unfortunetly it had zero to no repelling force.  I switched to 1850 batteries instead of AA ones, and it now pushes the on/off buttons aok.  So .. 
+
 ### Features ###
-* [DEV] a USB powered device and a AA battery backup device with a light indicating when USB is gone
+* [DEV] a USB powered device and a AA battery backup device with a light indicating when USB is gone ||
 * [DEV] Investigate low power modes
 * [DEV] A on off button is needed individually for each device
 * [DEV] A 7 segment display timer is needed along with buttons to control it
@@ -134,6 +171,12 @@ A device that times a hose.  Everyone I've bought broke, so you have nothing to 
 Amiga
 ===========
 
+Study
+-------------------------
+This is a catchall for study not related to any project
+
+* 2021 DEV 
+
 Soft: Putty and friends remake
 -------
 I proposed to make putty with friends.
@@ -182,12 +225,18 @@ Need a dev environment that uses modern tools like git and backups and IDEs.  I 
 ```
 
 And you would control the PI with synergy from the Amiga Mouse and Keyboard.  It would then encourage you to use the Amiga rather than a PC centered dev environment.  Though who knows.. you'd be using PC tools.. anyway lets see what it will turn out like:
+### Notes ###
+
+Started a trad gtk ui, it was going slowly so switched to a web ui.  The UI should not be needed for anything.
 
 ### Features ###
 * [DEV] Create a filesystem on linux of the amiga [DONE]
-* [DEV] Create a GUI for the above [||]
+* [DEV] Create a GUI for the above [||] but should finish it [ABANDONED]
+* [DEV] Create a WEBUI for the above [||]
+* [DEV] Create a Linux SERVICE/PACKAGE for the above  [NEARLY DONE]
+* [DEV] Create a Amiga SERVICE/PACKAGE for the above 
 * [DEV] Create synergy on amiga
-* [DEV] Autoboot RPI/unix settings for automatically connecting to amiga polling on startup
+* [DEV] Autoboot RPI/unix settings for automatically connecting to amiga polling on startup [NEARLY DONE]
 * Create a video cross compilers with the above
 * Create a video or something using ide with amiga compilers, a reverse rabit hole?  Fox hole i will call it..
 * Create a video or something QT amiga gui building
