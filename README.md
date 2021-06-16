@@ -116,7 +116,7 @@ Create a device that can turn on a Goal Zero USB PLUG or CIG socket via a button
 My solenoid with 12v AA battery 1300mA could not push the on/off buttons, it was successful 1/10 times.  I thought maybe making a magnet that would repel the button with enough force that that would work but no; I created the magnet and turned it on.  It was successful and lifted something almost as big as the coil around which it was wound.  Unfortunetly it had zero to no repelling force.  I switched to 1850 batteries instead of AA ones, and it now pushes the on/off buttons aok.  So .. 
 
 ### Features ###
-* [DEV] a USB powered device and a AA battery backup device with a light indicating when USB is gone ||
+* [DEV] a USB powered device and a AA battery backup device with a light indicating when USB is gone [||]
 * [DEV] Investigate low power modes
 * [DEV] A on off button is needed individually for each device
 * [DEV] A 7 segment display timer is needed along with buttons to control it
@@ -133,6 +133,7 @@ A pump will be used to water the heated seed bed too.
 So two pumps needed.
 
 ### Features ###
+* [DEV] Turn on water when the time says so [||]
 * [DEV] Turn on water when the soil moisture sensor says dry
 * [DEV] Add a temperature sensor, and a soil temperature sensor
 * [DEV] Talk to the hub with feedback status, via .. 
@@ -232,8 +233,8 @@ Started a trad gtk ui, it was going slowly so switched to a web ui.  The UI shou
 ### Features ###
 * [DEV] Create a filesystem on linux of the amiga [DONE]
 * [DEV] Create a GUI for the above [||] but should finish it [ABANDONED]
-* [DEV] Create a WEBUI for the above [||]
-* [DEV] Create a Linux SERVICE/PACKAGE for the above  [NEARLY DONE]
+* [DEV] Create a WEBUI for the above [||||]
+*       [DEV] Create a Linux SERVICE/PACKAGE for the above  [NEARLY DONE]
 * [DEV] Create a Amiga SERVICE/PACKAGE for the above 
 * [DEV] Create synergy on amiga
 * [DEV] Autoboot RPI/unix settings for automatically connecting to amiga polling on startup [NEARLY DONE]
