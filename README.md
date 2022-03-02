@@ -234,7 +234,7 @@ Started a trad gtk ui, it was going slowly so switched to a web ui.  The UI shou
 * [DEV] Create a filesystem on linux of the amiga [DONE]
 * [DEV] Create a GUI for the above [||] but should finish it [ABANDONED]
 * [DEV] Create a WEBUI for the above [||||]
-*       [DEV] Create a Linux SERVICE/PACKAGE for the above  [NEARLY DONE,OHDEAR||||]
+*       [DEV] Create a Linux SERVICE/PACKAGE for the above  [NEARLY DONE,OHDEAR|||||]
 * [DEV] Create a Amiga SERVICE/PACKAGE for the above 
 * [DEV] Create synergy on amiga
 * [DEV] Autoboot RPI/unix settings for automatically connecting to amiga polling on startup [NEARLY DONE]
