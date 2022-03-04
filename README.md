@@ -133,7 +133,7 @@ A pump will be used to water the heated seed bed too.
 So two pumps needed.
 
 ### Features ###
-* [DEV] Turn on water when the time says so [||]
+* [DEV] Turn on water when the time says so [|||]
 * [DEV] Turn on water when the soil moisture sensor says dry
 * [DEV] Add a temperature sensor, and a soil temperature sensor
 * [DEV] Talk to the hub with feedback status, via .. 
